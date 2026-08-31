@@ -78,6 +78,15 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Local datasets and generated figures
+data/raw/*
+data/processed/*
+reports/figures/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!reports/figures/.gitkeep
+.DS_Store
+
 # IPython
 profile_default/
 ipython_config.py
