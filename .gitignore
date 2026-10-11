@@ -79,9 +79,6 @@ target/
 .ipynb_checkpoints
 
 # Local datasets and generated figures
-data/raw/*
-data/processed/*
-reports/figures/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !reports/figures/.gitkeep
